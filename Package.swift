@@ -19,7 +19,7 @@ let package = Package(
     dependencies: [
 		.package(url: "https://github.com/Quick/Quick", from: "1.3.2"),
 		.package(url: "https://github.com/Quick/Nimble", from: "7.3.1"),
-		.package(url: "https://github.com/muizidn/ZipArchive", from: "2.0.0",
+		.package(url: "https://github.com/muizidn/ZipArchive", from: "2.0.0"),
     ],
     targets: [
         .target(
