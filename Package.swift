@@ -19,7 +19,7 @@ let package = Package(
     dependencies: [
 		.package(url: "https://github.com/Quick/Quick", from: "1.3.2"),
 		.package(url: "https://github.com/Quick/Nimble", from: "7.3.1"),
-		.package(url: "https://github.com/pondok-programmer/ZipArchive", from: "2.2.2"),
+		.package(url: "https://github.com/pondok-programmer/ZipArchive", .branch("master")),
     ],
     targets: [
         .target(
